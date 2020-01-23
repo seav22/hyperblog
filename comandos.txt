@@ -1,1 +1,4 @@
 $ git clone "url del repositorio" : para clonar el repositorio cuando una persona nueva se une.
+$ git remote -v : ver los repo fuentes
+$ git remote add upstream + url-del-repo-otra-persona
+
