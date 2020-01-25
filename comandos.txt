@@ -2,3 +2,10 @@ $ git clone "url del repositorio" : para clonar el repositorio cuando una person
 $ git remote -v : ver los repo fuentes
 $ git remote add upstream + url-del-repo-otra-persona
 $ git rebase nombre-rama: primero rebase desde la rama alternativa, luego de la master, luego $ git branch -D nombre-rama y aqui no paso nada.
+$ git stash: guardar en stash
+$ git stash list
+$ git stash pop: guardar el commit
+$ git stash branch nueva-rama: poner el stash en una nueva rama
+$ git stash drop: borrar el stash que esta en memoria
+$ git clean --dry-run: para borrar archivos no deseados
+$ git clean -f
