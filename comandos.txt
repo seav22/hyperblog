@@ -1,4 +1,4 @@
 $ git clone "url del repositorio" : para clonar el repositorio cuando una persona nueva se une.
 $ git remote -v : ver los repo fuentes
 $ git remote add upstream + url-del-repo-otra-persona
-
+$ git rebase nombre-rama: primero rebase desde la rama alternativa, luego de la master, luego $ git branch -D nombre-rama y aqui no paso nada.
